@@ -18,6 +18,30 @@ body{
     background: var(--bg);
 }
 
+.header{
+    background:var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1.5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top:0; left: 0;right: 0;
+    z-index: 1000;
+}
+
+.header .navbar a{
+    margin:0 1rem;
+    font-size:1.6rem;
+    color: whitesmoke;
+}
+
+.header .navbar a:hover{
+    color:var(--black);
+    border-bottom: .1rem solid var(--bg);
+    padding-bottom: 5rem;
+}
+
 .app{
     background: white;
     width: 90%;
